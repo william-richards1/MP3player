@@ -1250,6 +1250,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "RPI -> DAC -> amplifier -> headphone jack\n	-> 3/4 SDcards\n	-> Rotary encoder\n"
+		(exclude_from_sim no)
+		(at 166.116 47.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "895068fc-cc13-43de-aff6-1fc12a2179f0")
+	)
 	(text "SPI pinouts can be unreliable, double triple check to make sure that they are correct"
 		(exclude_from_sim no)
 		(at 70.612 27.178 0)
