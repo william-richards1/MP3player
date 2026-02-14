@@ -5,6 +5,161 @@
 	(uuid "0e2978a4-9114-4e8f-a3b0-a18c9ec8fe33")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Male"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Male"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Male_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -1252,7 +1407,7 @@
 	)
 	(text "RPI -> DAC -> amplifier -> headphone jack\n	-> 3/4 SDcards\n	-> Rotary encoder\n"
 		(exclude_from_sim no)
-		(at 166.116 47.498 0)
+		(at 233.426 43.942 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1270,6 +1425,36 @@
 		)
 		(uuid "ee6234d0-531e-4601-8418-8ad8d40f5ebd")
 	)
+	(wire
+		(pts
+			(xy 31.75 113.03) (xy 36.83 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d20f37-c195-4584-b581-5b2a5c29e8fd")
+	)
+	(polyline
+		(pts
+			(xy 176.53 12.7) (xy 176.53 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9482c6e7-0f47-4e62-a48d-10facd68e8ff")
+	)
+	(wire
+		(pts
+			(xy 31.75 115.57) (xy 36.83 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1121b98-e15a-453a-aa0a-2b79c4a9aea9")
+	)
 	(label "GPIO 11 SCLK (SPI 0)"
 		(at 66.04 74.93 180)
 		(effects
@@ -1279,6 +1464,16 @@
 			(justify right bottom)
 		)
 		(uuid "044d56f4-7230-4b47-93b7-80b55fd06d22")
+	)
+	(label "Data-"
+		(at 40.64 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0af66c0d-ae1d-468f-8544-519b1db6d2bf")
 	)
 	(label "GPIO 21 SCLK (SPI 1)"
 		(at 78.74 95.25 0)
@@ -1369,6 +1564,16 @@
 			(justify right bottom)
 		)
 		(uuid "3b0f7e75-9445-4a3f-ae32-9db0c71f7d54")
+	)
+	(label "Data+"
+		(at 31.75 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "467531ee-4793-42aa-8ba5-1688e5f482a7")
 	)
 	(label "GPIO 25"
 		(at 78.74 72.39 0)
@@ -1469,6 +1674,16 @@
 			(justify right bottom)
 		)
 		(uuid "7cf0f36a-201f-4967-8ae2-7c61ee6bbd34")
+	)
+	(label "Data+"
+		(at 40.64 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7eb5cfd5-a4ce-42ad-9f8d-692e8a15e05e")
 	)
 	(label "GND"
 		(at 78.74 69.85 0)
@@ -1660,6 +1875,16 @@
 		)
 		(uuid "e0f92c3a-4210-45ce-908d-4e98b654e9a8")
 	)
+	(label "Data-"
+		(at 31.75 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd3ec19f-085a-438f-b270-576aba62848a")
+	)
 	(label "GND"
 		(at 66.04 95.25 180)
 		(effects
@@ -1669,6 +1894,75 @@
 			(justify right bottom)
 		)
 		(uuid "fd9edc5c-06ed-42dd-88bd-25a1e3c07641")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Male")
+		(at 41.91 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005dff8440")
+		(property "Reference" "Pogo_pin_USB(OTG)1"
+			(at 45.974 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Male"
+			(at 44.6786 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf79fd48-6e86-46b2-a350-e6bf25f55d1c")
+		)
+		(pin "2"
+			(uuid "f8a46177-c207-45e1-aa8c-9ee19c95df87")
+		)
+		(instances
+			(project "MP3"
+				(path "/0e2978a4-9114-4e8f-a3b0-a18c9ec8fe33"
+					(reference "Pogo_pin_USB(OTG)1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
@@ -1696,7 +1990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
 			(at 71.12 69.85 0)
 			(effects
 				(font
@@ -1848,6 +2142,150 @@
 				(path "/0e2978a4-9114-4e8f-a3b0-a18c9ec8fe33"
 					(reference "J1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 120.65)
+		(size 16.51 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "86f7525d-7d40-498f-9446-691658dd8e91")
+		(property "Sheetname" "USB-C"
+			(at 24.13 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 24.13 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Data+" bidirectional
+			(at 40.64 123.19 0)
+			(uuid "235ec65b-0723-44e6-b3c1-5c46f04ceb94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Data-" bidirectional
+			(at 40.64 127 0)
+			(uuid "2f55b466-06e2-429e-a336-af7666ed4ba0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Audio_detected" output
+			(at 40.64 135.89 0)
+			(uuid "b6356520-89b7-4dad-9f19-bc6a4bcc6950")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DFP" output
+			(at 40.64 132.08 0)
+			(uuid "76b51c7e-ef90-497e-b249-f41820054040")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT1" output
+			(at 24.13 132.08 180)
+			(uuid "b6b57041-10a0-4f83-9d45-725020f6812f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT2" output
+			(at 24.13 128.27 180)
+			(uuid "aa4e77c2-460f-4e55-b193-148772d4495a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MP3"
+				(path "/0e2978a4-9114-4e8f-a3b0-a18c9ec8fe33"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 146.05)
+		(size 16.51 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c77504be-9e38-488f-8fac-6032e6d44b3f")
+		(property "Sheetname" "Power"
+			(at 24.13 145.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 24.13 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MP3"
+				(path "/0e2978a4-9114-4e8f-a3b0-a18c9ec8fe33"
+					(page "3")
 				)
 			)
 		)
