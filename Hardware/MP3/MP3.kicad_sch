@@ -2147,6 +2147,48 @@
 		)
 	)
 	(sheet
+		(at 203.2 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8299ee4d-961e-4056-9e41-08fab1b6f7ac")
+		(property "Sheetname" "DAC+AMP"
+			(at 203.2 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 203.2 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MP3"
+				(path "/0e2978a4-9114-4e8f-a3b0-a18c9ec8fe33"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 24.13 120.65)
 		(size 16.51 16.51)
 		(exclude_from_sim no)
@@ -2198,46 +2240,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "Audio_detected" output
-			(at 40.64 135.89 0)
-			(uuid "b6356520-89b7-4dad-9f19-bc6a4bcc6950")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DFP" output
-			(at 40.64 132.08 0)
-			(uuid "76b51c7e-ef90-497e-b249-f41820054040")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT1" output
-			(at 24.13 132.08 180)
-			(uuid "b6b57041-10a0-4f83-9d45-725020f6812f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT2" output
-			(at 24.13 128.27 180)
-			(uuid "aa4e77c2-460f-4e55-b193-148772d4495a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances

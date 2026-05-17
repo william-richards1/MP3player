@@ -1,4 +1,4 @@
-26405698911343361
+26411014894936941
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105049,6 +105049,13 @@ iclr
 2
 2
 iclr
+ABM810000MHZ12D2W
+ABM8
+Crystal or Oscillator
+0
+4
+4
+iclr
 ADS131M06IRSNR
 
 
@@ -105616,6 +105623,13 @@ Integrated Circuit
 48
 48
 iclr
+QFP50P900X900X160-48N
+AK4493SEQ
+Integrated Circuit
+0
+48
+48
+iclr
 RCLAMP3346PQTNT
 RCLAMP3346PQTNT-2
 Diode
@@ -105832,6 +105846,13 @@ Schottky Diode
 0
 2
 2
+iclr
+SSM3K15AMFVL3F
+SSM3K15AMFV,L3F
+MOSFET (N-Channel)
+0
+3
+3
 iclr
 SiC437BEDT1GE3
 SiC437BED-T1-GE3-7
