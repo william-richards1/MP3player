@@ -2199,6 +2199,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Fix this:\n\nUse buck boost from battery to 5.2V\n\n5.2V -> ferrite bead -> ulta low noise LDO -> 5V \n\nRefine the power supply, know what voltage is needed for the DAC\n\nThe amp likes low noise 5V, but will make its own noise, use TPS7A20\n"
+		(exclude_from_sim no)
+		(at 171.704 19.812 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "63ddc678-c081-45bc-94b9-ffaa5c935a33")
+	)
 	(text "MCP73871-1CC\n-2 means charges up to 4.2V\nfirst C means has 6 hour safety timer for charging\nsecond C means 3.1V Low battery threshold"
 		(exclude_from_sim no)
 		(at 42.672 103.632 0)
@@ -7592,7 +7602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 147.32 140.97 0)
 			(effects
 				(font
