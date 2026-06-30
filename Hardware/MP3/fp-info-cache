@@ -1,4 +1,4 @@
-26411014894936941
+26414575618971890
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105217,6 +105217,13 @@ DIO_V3PAN50-M3_I
 2
 2
 iclr
+DM3ATSFPEJM540
+DM3AT-SF-PEJM5(40)-3
+Connector
+0
+14
+14
+iclr
 DPAK228P990X239-4N
 
 
@@ -105412,6 +105419,13 @@ MAX1771CSA&plus_
 0
 8
 8
+iclr
+MG2040MUTAG
+UDFN18, 5.5x1.5, 0.5P/0.75P CASE 517CP ISSUE A_2026
+TVS Diode (Uni-directional)
+0
+21
+21
 iclr
 MGAH1004R68M-10
 
