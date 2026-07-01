@@ -5,6 +5,333 @@
 	(uuid "bdedc056-2387-4b10-93e5-225d59c9c31c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Audio:AudioJack3_Ground_Switch"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3_Ground_Switch"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack3_Ground_Switch_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 6.35)
+					(end -5.08 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack3_Ground_Switch_1_1"
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.826) (xy -1.016 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.254) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -5.334) (xy 2.032 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy -2.54 5.08) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -1.27 2.54) (xy -1.27 4.826) (xy -1.524 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -2275,7 +2602,7 @@
 	)
 	(text "Double check the pins, and add decoupling caps\nused for MCLK rather than DSP\n\nPins 1 and 3 are interchangable? so it seems\n\nCan't use this....\n"
 		(exclude_from_sim no)
-		(at 153.162 135.89 0)
+		(at 104.902 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4261,7 +4588,7 @@
 		(uuid "1cac442e-6221-4b26-8a5a-40772bb79aab")
 	)
 	(label "A3V3"
-		(at 166.37 154.94 0)
+		(at 118.11 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4271,7 +4598,7 @@
 		(uuid "1e52156f-e4aa-44d2-8433-dc622d386187")
 	)
 	(label "AGND"
-		(at 135.89 154.94 180)
+		(at 87.63 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4441,7 +4768,7 @@
 		(uuid "99627b30-5c95-4963-b888-4e3aa5bb5d03")
 	)
 	(label "AGND"
-		(at 166.37 157.48 0)
+		(at 118.11 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4511,7 +4838,7 @@
 		(uuid "bf5e5620-2184-45ac-9369-411c7d1eeeeb")
 	)
 	(label "CLOCK"
-		(at 147.32 127 180)
+		(at 99.06 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4621,7 +4948,7 @@
 		(uuid "e7d580fd-0c7e-468d-b017-4b79976551f5")
 	)
 	(label "CLOCK"
-		(at 135.89 157.48 180)
+		(at 87.63 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4847,6 +5174,89 @@
 			(project "MP3"
 				(path "/0e2978a4-9114-4e8f-a3b0-a18c9ec8fe33/8299ee4d-961e-4056-9e41-08fab1b6f7ac"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_Ground_Switch")
+		(at 195.58 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c0ed217-2ba5-485f-946e-9f01d65a94d7")
+		(property "Reference" "J5"
+			(at 193.675 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_Ground_Switch"
+			(at 193.675 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)"
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G"
+			(uuid "39f4d65d-4483-4aa4-b458-cf1ff1e00d18")
+		)
+		(pin "TN"
+			(uuid "1929211e-cae3-4901-9e9f-bfdf6dc18804")
+		)
+		(pin "S"
+			(uuid "ac8904ec-3dd0-4d9f-8a34-9f6aee793e03")
+		)
+		(pin "T"
+			(uuid "351db6e9-b3ee-4767-98d2-9b0e472e0834")
+		)
+		(pin "R"
+			(uuid "798a67b0-e440-44d8-91ed-4cef69ed312d")
+		)
+		(pin "RN"
+			(uuid "6076e4e9-e8c4-4a39-86f3-ca7c5f735f8f")
+		)
+		(pin "SN"
+			(uuid "72ae9f44-98ab-4c9c-8f11-eb32c3582610")
+		)
+		(instances
+			(project ""
+				(path "/0e2978a4-9114-4e8f-a3b0-a18c9ec8fe33/8299ee4d-961e-4056-9e41-08fab1b6f7ac"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5400,7 +5810,7 @@
 	)
 	(symbol
 		(lib_id "iclr:ABM8-22.5792MHZ-D2Y-T")
-		(at 166.37 157.48 180)
+		(at 118.11 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5409,7 +5819,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d230438-f4a8-4edb-8b82-0a89d35e83a5")
 		(property "Reference" "Y1"
-			(at 151.13 147.32 0)
+			(at 102.87 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5827,7 @@
 			)
 		)
 		(property "Value" "ABM8-22.5792MHZ-D2Y-T"
-			(at 151.13 149.86 0)
+			(at 102.87 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,7 +5835,7 @@
 			)
 		)
 		(property "Footprint" "iclr:ABM810000MHZ12D2W"
-			(at 139.7 62.56 0)
+			(at 91.44 79.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5845,7 @@
 			)
 		)
 		(property "Datasheet" "https://abracon.com/Resonators/abm8.pdf"
-			(at 139.7 -37.44 0)
+			(at 91.44 -20.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,7 +5855,7 @@
 			)
 		)
 		(property "Description" "Crystal 22.5792MHz +/-20ppm (Tol) +/-30ppm (Stability) 18pF FUND 50Ohm 4-Pin Ultra Mini-CSMD T/R"
-			(at 166.37 157.48 0)
+			(at 118.11 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5864,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 139.7 -237.44 0)
+			(at 91.44 -220.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +5874,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 139.7 -337.44 0)
+			(at 91.44 -320.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5884,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
-			(at 139.7 -437.44 0)
+			(at 91.44 -420.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +5894,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ABRACON"
-			(at 139.7 -537.44 0)
+			(at 91.44 -520.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +5904,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ABM8-22.5792MHZ-D2Y-T"
-			(at 139.7 -637.44 0)
+			(at 91.44 -620.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,6 +8107,71 @@
 			(project "MP3"
 				(path "/0e2978a4-9114-4e8f-a3b0-a18c9ec8fe33/8299ee4d-961e-4056-9e41-08fab1b6f7ac"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8e9d674-8e11-4bee-bbce-48e41a6182f2")
+		(property "Reference" "#PWR056"
+			(at 195.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 192.024 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98dea6b9-97b7-48d2-b628-5d1386dd31bd")
+		)
+		(instances
+			(project "MP3"
+				(path "/0e2978a4-9114-4e8f-a3b0-a18c9ec8fe33/8299ee4d-961e-4056-9e41-08fab1b6f7ac"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
